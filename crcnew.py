@@ -119,7 +119,7 @@ def compute_performance(yhat, y):
     print("CI for accuracy: ", proportion_confint(tp + tn, tp + tn + fp + fn ))
 
 #Import Database
-url = "/content/drive/MyDrive/TEmporary/CRC SBRT Oligomets full database cleanedMay2414972.xlsx"
+url = "/content/drive/MyDrive/TEmporary/CRC .xlsx"
 SBRT = pd.read_excel(url)
 
 #Drop Columns with high NA values or are irrelevant to outcome. PREV_SYSTX and ADJUVANT were not selected as significant features, so their
